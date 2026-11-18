@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.chinadrivetest/mcp",
+  "title": "ChinaDriveTest — China Subject 1 Exam Bank, Airport Driving Permit & DMV Conversion Engine",
+  "description": "Search 2,545 China Subject 1 driving test questions, airport permits, DMV swaps & road signs.",
+  "version": "1.0.0",
+  "websiteUrl": "https://chinadrivetest.com",
+  "repository": {
+    "url": "https://github.com/AbigailDavised/chinadrivetest-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://chinadrivetest.com/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chinadrivetest.com/api/mcp"
+    }
+  ]
+}

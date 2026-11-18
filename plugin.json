@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "chinadrivetest",
+  "version": "1.0.0",
+  "description": "Official stateless MCP server for ChinaDriveTest.com — 2,545 bilingual Subject 1 questions, MPS Order No. 172 mutual swaps, airport driving permits & road signs.",
+  "homepage": "https://chinadrivetest.com",
+  "repository": "https://github.com/AbigailDavised/chinadrivetest-mcp",
+  "license": "MIT",
+  "author": {
+    "name": "Abigail Davised",
+    "email": "admin@chinadrivetest.com",
+    "url": "https://chinadrivetest.com"
+  },
+  "keywords": [
+    "china-driving-license",
+    "subject-1-test",
+    "temporary-driving-permit",
+    "dmv-china",
+    "road-signs",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "chinadrivetest": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}

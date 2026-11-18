@@ -1,0 +1,11 @@
+{
+  "name": "chinadrivetest-mcp",
+  "version": "1.0.0",
+  "description": "Official stateless MCP server for ChinaDriveTest.com — 2,545 bilingual Subject 1 questions, MPS Order No. 172 mutual swaps, airport driving permits & road signs.",
+  "homepage": "https://chinadrivetest.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbigailDavised/chinadrivetest-mcp.git"
+  },
+  "license": "MIT"
+}

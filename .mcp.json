@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "chinadrivetest": {
+      "type": "http",
+      "url": "https://chinadrivetest.com/api/mcp"
+    }
+  }
+}
