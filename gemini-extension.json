@@ -1,0 +1,11 @@
+{
+  "name": "chinadrivetest",
+  "version": "1.0.0",
+  "description": "Search 2,545 China Subject 1 driving test questions, airport permits, DMV swaps & road signs.",
+  "mcpServers": {
+    "chinadrivetest": {
+      "type": "http",
+      "url": "https://chinadrivetest.com/api/mcp"
+    }
+  }
+}
